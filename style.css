@@ -31,6 +31,7 @@ p{
 .header h1{
   font-family: 'Inter', sans-serif;
   font-size: 65px;
+  margin: 0 5%;
   margin-top: 0;
   margin-bottom: 100px;
 }
@@ -47,6 +48,8 @@ p{
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  border: none;
+  font-size: 20px;
 }
 .donate-for-good{
   text-align: center;
@@ -117,6 +120,7 @@ p{
 .plan-item{
   padding: 50px 25px;
   border-radius: 5px;
+  width: 100%;
 }
 .plan-item img{
   width: 55px;
@@ -177,10 +181,11 @@ p{
   border-radius: 5px 0px 0px 5px;
   border: none;
 }
-.subscribe-box a{
+.subscribe-box button{
   border-radius: 0 5px 5px 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
+  font-size: 16px;
 }
 footer{
   background-color: #0b0d17;
